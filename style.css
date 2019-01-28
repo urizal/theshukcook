@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Abel, sans-serif;
 }
 
 header {
@@ -29,7 +34,6 @@ header > * {
 }
 .nav-bar li {
   padding: 10px;
-  font-family: sans-serif;
   font-weight: 600;
 }
 
@@ -61,7 +65,6 @@ header > * {
 }
 .heading .title {
   color: white;
-  font-family: sans-serif;
   padding: 5px;
   
 }
@@ -77,8 +80,7 @@ header > * {
   
 }
 .about img {
-  flex-grow: 1;
-  flex-basis: 50%;
+  align-self: center;
   width: 100%;
   height: auto;
   
@@ -96,15 +98,14 @@ header > * {
 .profile h2 {
   padding-left: 10%;
   font-size: 48px;
-  font-family: sans-serif;
+  
   
 }
 .profile p {
   padding-left: 10%;
   width: 50%;
   font-size: 24px;
-  font-family: sans-serif;
-  
+    
 }
 .profile hr {
   margin-left: 10%;
@@ -149,20 +150,43 @@ header > * {
 }
 .services h3 {
   font-size: 36px;
-  font-family:sans-serif;
+  
 }
 
 .services p {
   font-size: 18px;
-  font-family: sans-serif;
+  
 }
 
+.contact{
+  text-align: center;
+}
+.contact>* {
+  margin: 5px;
+  
+}
+.contact h2 {
+  font-size: 48px;
+  font-weight: bold;
+  
+}
+.contact h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.contact p {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
 
 
 .gallery {
   display: flex;
 }
 .gallery-image {
-  flex-grow: 1;
+  align-self: center;
+  max-width: 25%;
+  height: auto;
+  
   
 }
