@@ -156,3 +156,13 @@ header > * {
   font-size: 18px;
   font-family: sans-serif;
 }
+
+
+
+.gallery {
+  display: flex;
+}
+.gallery-image {
+  flex-grow: 1;
+  
+}
